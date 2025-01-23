@@ -70,7 +70,7 @@ pip install -r requirements.txt</code></pre>
     Comprehensive documentation for SSM-DNN, including API details, examples, and theory, can be found in the <a href="Docs/">docs</a> directory.
 </p>
 
-<h2>Examples</h2>
+<h2>Code Examples(Simulation and Real Data Applications)</h2>
 
 <article id="example-1">
 <h3>I. Brief Death Implicit Association Task (BDIT)</h3>
