@@ -38,8 +38,8 @@ mixture of behavioral signals.</li>
 
 <h2>Installation</h2>
 <p>Clone this repository and install the required dependencies:</p>
-<pre><code>git clone https://github.com/&lt;your-username&gt;/ldCm.git
-cd ldCm
+<pre><code>git clone https://github.com/&lt;your-username&gt;/SSM-DNN.git
+cd SSM-DNN
 pip install -r requirements.txt</code></pre>
 
 <h2>How to Use SSM-DNN Package</h2>
