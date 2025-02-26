@@ -31,24 +31,31 @@ Deep neural networks (DNNs), including CNNs and RNNs, have revolutionized neuros
 
 ## Methods
 
-### Model Definition
+### [Model Definition](Documentation.pdf)
 SSM-DNN combines latent dynamical manifolds from SSMs with supervised learning tasks of DNNs. It includes:
 - A **latent variable** capturing essential dynamics from biobehavioral signals.
 - State and observation models represented mathematically.
 - Training via Expectation-Maximization (EM) combined with MCMC sampling for latent state inference.
+    <img src="https://github.com/YousefiNeuroLab/LDCM/blob/main/Pictures/Model-Structure.png" alt="SSN-DNN" height="300" width="360">
+    <figcaption><strong>SMM-DNN Model Architecture</strong> The model combines SSM and DNN in characterization of high-dimensional neural recording and their labels.  represent a low dimensional representation of neural data, which is passed to a DNN for supervised learning tasks, enabling accurate label prediction and interpretation. This integration leverages the generative strengths of SSMs for capturing temporal dynamics while utilizing the discriminative capabilities of DNNs for classification and regression.
+    </figcaption>
 
 ### Training
 The model training involves:
 1. **E-step:** Posterior distribution estimation using MCMC.
 2. **M-step:** Updating parameters with stochastic gradient ascent.
+<img src="https://github.com/YousefiNeuroLab/LDCM/blob/main/Pictures/EM-algorithm.png" alt="EM" height="300" width="360">
+    <figcaption><strong>Expectation-Maximization (EM) Algorithm for Maximum Likelihood Estimation</strong>
+The graph illustrates how the EM algorithm converges to a local maximum by iteratively performing the E-step and M-step.
+    </figcaption>
 
 ### Decoding
-The decoding process predicts the label probability per trial using state inference derived from observed data.
+The [decoding process](API.md) predicts the label probability per trial using state inference derived from observed data.
 
 ---
 
 ## Data Description
-The dataset includes behavioral data from an **Implicit Association Task (IAT)** designed to distinguish between individuals with Major Depressive Disorder (MDD) and healthy controls (CTL). Key details:
+The [dataset](https://github.com/YousefiNeuroLab/LDCM/blob/main/Data%20Description.md) includes behavioral data from an **Implicit Association Task (IAT)** designed to distinguish between individuals with Major Depressive Disorder (MDD) and healthy controls (CTL). Key details:
 - **Participants:** 23 (11 MDD, 12 CTL).
 - **Task:** Matching stimulus words with categories ("Life + Me" or "Death + Me").
 - **Trials:** 360 trials per participant across 18 blocks.
@@ -72,7 +79,7 @@ This project is sponsored by the **Defense Advanced Research Projects Agency (DA
 ---
 
 ## References
-For full references, please refer to the [documentation](Documentation.pdf).
+You can find a draft of our working paper [here](Documentation.pdf).
 
 ---
 
