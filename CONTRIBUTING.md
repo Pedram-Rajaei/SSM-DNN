@@ -1,17 +1,17 @@
-# Contributing to Latent-state Dynamical Coherence Model (LDCM)
+# Contributing to SSM-DNN
 
-Thank you for considering contributing to Latent-state Dynamical Coherence Model (LDCM)! We welcome contributions from everyone, whether you're fixing a bug, adding a new feature, or improving documentation. Please follow these guidelines to ensure a smooth contribution process.
+Thank you for considering contributing to SSM-DNN! We welcome contributions from everyone, whether you're fixing a bug, adding a new feature, or improving documentation. Please follow these guidelines to ensure a smooth contribution process.
 
 ## How to Contribute
 
 ### 1. Fork the Repository
-Start by forking the [repository](https://github.com/Pedram-Rajaei/LDCM) to your GitHub account.
+Start by forking the [repository](https://github.com/Pedram-Rajaei/SSM-DNN) to your GitHub account.
 
 ### 2. Clone Your Fork
 Clone your fork to your local machine:
 
 ```bash
-git clone https://github.com/your-username/LDCM.git
+git clone https://github.com/your-username/SSM-DNN.git
 ```
 
 ### 3. Create a Branch
