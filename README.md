@@ -1,14 +1,5 @@
-<h1>Latent-state Dynamical Coherence Model (LDCM)</h1>
+<h1>Robust DNN-based Decoder Model with an Embedded State-Space Model Layer</h1>
 <img src="Pictures/Logo_LDCM.png" alt="LCDM Picture" height="320" width="320">
-<p>
-    <mark>This will be the repository for LDCM project. The material in this repository 
-    is based on a current research which combines SSM and DNN for 
-    decoding high dimensional neural data. We designed the content of this 
-    repository aligned with what we thought it would be for LDCM project. Part of 
-    our previous effort on LDCM such as SS-GCoh model and preliminary 
-    results on the anesthesia data can be found in our previous GitHub 
-    repository developed for this research: (https://github.com/YousefiNeuroLab/SSGCoh)</mark>
-</p>
 <p>
     This project introduces a novel 
     framework for manifold inference and neural decoding solution, specifically 
