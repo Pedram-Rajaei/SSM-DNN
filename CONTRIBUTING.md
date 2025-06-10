@@ -70,4 +70,4 @@ Go to the original repository and open a pull request. Include a detailed descri
 ## Inquiries
 If you have any inquiries, please contact Dr. Yousefi at aliyousefi@central.uh.edu or Pedram Rajaei at prajaei@couagrnet.uh.edu.
 
-Thank you for contributing to Latent-state Dynamical Coherence Model (LDCM)! Together, we can make this project better.
+Thank you for contributing to SSM-DNN! Together, we can make this project better.
