@@ -166,11 +166,11 @@ DNN can be found here:</p>
 }</code></pre>
 
 <h2>Collaboration and Contribution</h2>
-<p>We welcome your contribution in this research! Please check <a href="Contribution.md">here</a> for guidelines.</p>
+<p>We welcome your contribution in this research! Please check <a href="CONTRIBUTING.md">here</a> for guidelines.</p>
 
 <h2>License</h2>
 <p>
-    This project is licensed under the MIT License. See the <a href="License">lincense</a> file for details.
+    This project is licensed under the MIT License. See the <a href="LICENSE">lincense</a> file for details.
 </p>
 
 <h2>Acknowledgments</h2>
