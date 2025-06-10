@@ -122,7 +122,7 @@ state process. Here, SSM works as adaptive smoother. The DNN is a 1-
 dimensional CNN with 2 layer of convoltuin and max-pooling. We use a 
 cross-validation scheme to assess prediction accuracy along with sepecificty
 and sensvicity of our model. We compared our model with DNN alone, and 
-other modeling frameowkr such as XXX and YYY, and found our model can 
+other state of art modeling framework such as pre trained ResNet, and found our model can 
 reach higher prediction accuracy with a more balanced specificity and 
 senisivity.  Different steps of the framework implementation using SSM-
 DNN can be found here:</p>
